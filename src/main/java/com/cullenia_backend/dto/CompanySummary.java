@@ -7,11 +7,11 @@ import lombok.Data;
 public class CompanySummary {
 
     @JsonProperty("reqSymbolBetaInfo")
-    private SymbolBetaInfo betaInfo;
+    private ReqSymbolBetaInfo betaInfo;
 
     @JsonProperty("reqLogo")
-    private Logo logo;
+    private ReqLogo logo;
 
     @JsonProperty("reqSymbolInfo")
-    private SymbolInfo symbolInfo;
+    private ReqSymbolInfo symbolInfo;
 }
